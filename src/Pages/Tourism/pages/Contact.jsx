@@ -19,7 +19,7 @@ const TourismContactPage = () => {
           
           {/* Left Side: Information & Identity */}
           <motion.div 
-            className="w-full lg:w-1/2"
+            className="w-full lg:text-center"
             initial="hidden"
             animate="visible"
             variants={{
@@ -63,12 +63,7 @@ const TourismContactPage = () => {
           </motion.div>
 
           {/* Right Side: The Form */}
-          <motion.div 
-            className="w-full lg:w-1/2 bg-gray-50 p-8 md:p-12 lg:p-16"
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-          >
+
             {/* <form className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="flex flex-col gap-2">
@@ -117,7 +112,7 @@ const TourismContactPage = () => {
                 Send Message
               </motion.button>
             </form> */}
-          </motion.div>
+
 
         </div>
       </div>

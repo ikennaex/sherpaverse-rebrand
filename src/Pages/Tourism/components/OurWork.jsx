@@ -112,7 +112,7 @@ const OurWork = () => {
               </ul>
             </motion.div>
 
-            {/* Closing Statement */}
+            {/* Closing Statement
             <motion.p
               variants={fadeInUp}
               className="mt-12 text-sm md:text-base text-gray-400 font-medium italic leading-relaxed max-w-xl"
@@ -120,7 +120,7 @@ const OurWork = () => {
               We think in systems, not silos, and approach destination
               development as an interconnected system aligning with people,
               product, market and governance
-            </motion.p>
+            </motion.p> */}
 
             {location.pathname === "/" && (
               <Link to="/ourwork" className="inline-block mt-6">

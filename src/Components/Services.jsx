@@ -10,7 +10,7 @@ const Services = () => {
         { name: "Study Abroad", img: studyabroad },
         { name: "Tourism", img: tourism },
         { name: "Trainings (TEFL/TESOL)", img: trainings },
-        { name: "Sport Tourism", img: sporttourism },
+        { name: "Sport Tourism", img: "/images/football.jpg" },
     ]
 
     return (

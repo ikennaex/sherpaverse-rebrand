@@ -16,6 +16,7 @@ import OurWorkPage from './Pages/Tourism/pages/OurWorkPage'
 import PartnerWithUs from './Pages/Tourism/components/PartnerWithUs'
 import StiPage from './Pages/Tourism/pages/StiPage'
 import TourismContactPage from './Pages/Tourism/pages/Contact'
+import TourismFooter from './Pages/Tourism/components/Footer'
 // import TourismHomepage from './Tourism/pages/Homepage'
 // import TourismAbout from './Tourism/pages/About'
 // import OurWorkPage from './Tourism/pages/OurWorkPage'
@@ -52,7 +53,8 @@ function App() {
       </Routes>
 
       {isTourismRoute ? "" : <Contact />}
-      <Footer />
+      {isTourismRoute ? <TourismFooter /> : <Footer />}
+      {/* <Footer /> */}
     </div>
   )
 }

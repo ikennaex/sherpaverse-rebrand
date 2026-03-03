@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const AppointmentCTA = () => {
   return (
-    <section className="pt-10 bg-white px-6">
+    <section className="pt-10 px-6">
       <motion.div 
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}

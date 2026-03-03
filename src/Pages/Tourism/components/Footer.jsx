@@ -8,7 +8,7 @@ import {
   Phone,
 } from "lucide-react";
 
-const Footer = () => {
+const TourismFooter = () => {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -152,4 +152,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default TourismFooter;

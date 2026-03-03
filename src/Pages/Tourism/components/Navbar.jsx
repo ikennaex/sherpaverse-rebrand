@@ -41,13 +41,13 @@ const TourismNavbar = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
             >
-              <motion.a
-                href={item.link}
+              <Link
+                to={item.link}
                 whileHover={{ y: -2 }}
                 className="text-[13px] uppercase tracking-widest text-gray-700 hover:text-teal-600 font-bold transition-colors"
               >
                 {item.name}
-              </motion.a>
+              </Link>
             </motion.li>
           ))}
         </ul>
@@ -58,14 +58,14 @@ const TourismNavbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="hidden md:block"
         >
-          <motion.a
-            href="/tourism/contact"
+          <Link
+            to="/tourism/contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-black text-white px-8 py-2.5 text-xs uppercase tracking-widest font-bold hover:bg-teal-600 transition-colors"
           >
             Contact Us
-          </motion.a>
+          </Link>
         </motion.div>
 
         {/* Mobile Menu Button */}
@@ -111,24 +111,24 @@ const TourismNavbar = () => {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: i * 0.05 }}
                 >
-                  <a
+                  <Link
                     href={item.link}
                     className="block text-sm uppercase tracking-[0.2em] font-bold text-gray-700 hover:text-teal-600"
                     onClick={() => setOpen(false)}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 </motion.li>
               ))}
 
-              <motion.a
-                href="/tourism/contact"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+              <Link
+                to="/tourism/contact"
+                  // initial={{ opacity: 0 }}
+                  // animate={{ opacity: 1 }}
                 className="mt-4 bg-teal-600 text-white text-center py-4 text-xs uppercase tracking-widest font-bold"
               >
                 Contact Us
-              </motion.a>
+              </Link>
             </ul>
           </motion.div>
         )}

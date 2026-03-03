@@ -43,13 +43,13 @@ const WhoAreWe = () => {
               </span>
               
               <h2 className="text-4xl md:text-5xl font-light text-black tracking-tighter mb-8 leading-tight">
-                Who Are We
+                Who We Are
               </h2>
               
               <p className="text-gray-600 font-light text-lg leading-relaxed mb-10">
                 Sherpaverse Ltd is a travel concierge startup specializing in luxury
-                travel, visa assistance, study abroad, M.I.C.E. tourism, and 
-                professional TEFL/TESOL training. 
+                travel, visa assistance, study abroad, M.I.C.E. tourism, football trials abroad and 
+                professional TEFL/TESOL/IELTS training. 
               </p>
               
               <p className="text-gray-500 font-light text-base leading-relaxed mb-12 italic border-l-2 border-stone-200 pl-6">
@@ -58,7 +58,7 @@ const WhoAreWe = () => {
 
               <Link to="/about-us" className="group inline-flex items-center gap-6">
                 <span className="text-[10px] uppercase tracking-[0.3em] font-bold text-black group-hover:text-teal-600 transition-colors">
-                  Learn more about our mission
+                  Learn more
                 </span>
                 <div className="w-12 h-[1px] bg-black group-hover:w-20 group-hover:bg-teal-600 transition-all duration-500"></div>
               </Link>

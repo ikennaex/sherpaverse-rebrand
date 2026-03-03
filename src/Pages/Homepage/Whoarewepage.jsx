@@ -13,7 +13,8 @@ const Whoarewepage = () => {
     { title: "Study Abroad Support", desc: "Expert guidance for international education." },
     { title: "M.I.C.E. Tourism", desc: "Professional services for Meetings, Incentives, Conferences, and Exhibitions." },
     { title: "Leisure Tourism", desc: "Curating unforgettable vacations and getaways." },
-    { title: "Professional Training", desc: "Certified TEFL/TESOL programs for aspiring educators." },
+    { title: "Professional Training", desc: "Certified TEFL/TESOL/IELTS programs for aspiring educators." },
+    { title: "Football Trials Abroad", desc: "Guidance and support for international football opportunities." },
   ];
 
   return (

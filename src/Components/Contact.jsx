@@ -1,5 +1,6 @@
 import React from 'react'
 import FadeIn from './fadein'
+import AppointmentCTA from '../Pages/Tourism/components/AppointmentCTA'
 
 const Contact = () => {
   return (
@@ -14,8 +15,10 @@ const Contact = () => {
                 <textarea className='bg-white border w-full rounded-md p-4' placeholder='Message' cols={30} name="" id=""></textarea>
                 <button className='bg-teal-600 rounded-md py-3 text-white '>Submit</button>
             </form>
+
             </FadeIn>
         </div>
+            <AppointmentCTA />
     </div>
   )
 }
